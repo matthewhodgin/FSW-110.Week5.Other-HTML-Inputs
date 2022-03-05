@@ -9,7 +9,7 @@
 
 <body>
 
-
+    <form name='myForm'>
 
     <label>First Name </label><input type="text" id="text1">
     <label>Last Name </label><input type="text" id="text2">
@@ -17,8 +17,8 @@
     <br>
 
     <br>
-    <form name='myForm'>
-		<input type="text" placeholder='Your Age' required />
+   
+		<input type="text" id="text3" placeholder='Your Age' required />
 
         <br><br>
 
@@ -34,27 +34,26 @@
         <br><br>
 
         <select name="experience" id="experience">
-            <option value="amazing">AMAZING</option>
-            <option value="exceeded">Exceeded Expectations</option>
-            <option value="expected">As Expected</option>
-            <option value="unacceptable">Unacceptable</option>
-          </select>
-	</form>
+            <option value="AMAZING">AMAZING</option>
+            <option value="Exceeded Expectations">Exceeded Expectations</option>
+            <option value="As Expected">As Expected</option>
+            <option value="Unacceptable">Unacceptable</option>
+        </select>
 
     <br>
 
-    <form>
 		<label>How did you hear about us?  (Please mark all that apply)</label>
+
         <div></div><br>
 
-        Friend: <input type="checkbox" name='decision' value='Yes' />
-		Radio Ad: <input type="checkbox" name='decision' value='No' />
-        Online: <input type="checkbox" name='decision' value='Yes' />
-		Other: <input type="checkbox" name='decision' value='No' />
+        Friend: <input type="checkbox" name='choice' value='Friend' />
+		Radio Ad: <input type="checkbox" name='choice' value='Radio Ad' />
+        Online: <input type="checkbox" name='choice' value='Online' />
+		Other: <input type="checkbox" name='choice' value='Other' />
         
         <br><br>
 		
-        <button>Submit</button>
+        <button id='button'>Submit</button>
 	</form>
 
     <script src="Week5-Other HTML Inputs.js"></script>
